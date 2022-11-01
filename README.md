@@ -6,4 +6,4 @@ The hardware repository contains CAD models for the Neuropixels-NHP probe and mo
 
 
 
-![NAN dovetail rod mount - concept 2 - 2](https://user-images.githubusercontent.com/768056/199112119-5768ca61-d828-4c0d-a16a-26eed345c99e.png)
+

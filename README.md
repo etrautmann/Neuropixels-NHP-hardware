@@ -1,9 +1,13 @@
 # Neuropixels-NHP-hardware
  
-This is a collection of open-source hardware designs and documentation of techniques required to use Neuropixels-NHP probes in large animal models. 
+This is a work-in-progress collection of open-source hardware designs and documentation of techniques required to use Neuropixels-NHP probes in large animal models. 
 
 The hardware repository contains CAD models for the Neuropixels-NHP probe and models of adapters to mount these probes on electrode drives from manufacturers like Narishige and NaN. 
 
+# Wiki
+
+The use case wiki is currently a work in progress, more will be available soon.
+![Use case experience wiki](https://github.com/etrautmann/Neuropixels-NHP-hardware/wiki)
 
 Examples:
 

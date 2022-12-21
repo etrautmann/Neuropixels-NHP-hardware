@@ -1,3 +1,5 @@
+![Neuropixels NHP](/docs/images/Neuropixels%20NHP%20-%2045mm.png)
+
 # Neuropixels-NHP-hardware
  
 This repository and the associated wiki contain a collection of open-source hardware designs and documentation of methods for using silicon probes like the Neuropixels-NHP in nonhuman primates (NHP) and other large animal models. The experience documented here is currently focused on acute recordings, and information regarding semi-chronic recordings will be added once this testing is complete. We welcome pull requests for additional designs and information from the community. 

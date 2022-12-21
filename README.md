@@ -1,7 +1,7 @@
 
 # Neuropixels-NHP-hardware
 
-![Neuropixels NHP](/docs/images/Neuropixels%20NHP%20-%2045mm.png)
+<img src="./docs/images/Neuropixels%20NHP%20-%2045mm.png" alt="drawing" width="500"/>
 
 This repository and the associated wiki contain a collection of open-source hardware designs and documentation of methods for using silicon probes like the Neuropixels-NHP in nonhuman primates (NHP) and other large animal models. The experience documented here is currently focused on acute recordings, and information regarding semi-chronic recordings will be added once this testing is complete. We welcome pull requests for additional designs and information from the community. 
 
@@ -13,17 +13,32 @@ This repository contains:
 
 Most documentation lives on the wiki
 
-Some examples:
+---
+# Examples
+
+## 3x probes in M1, SMA, and GPi
+
+Example hardware for inserting three probes simultaneously, targeting Supplemental motor area, GPi in the basal ganglia, and primary motor cortex (M1). In this example, all probes are inserted along a trajectory parallel to the chamber axis.
+
+<img src="./docs/images/Jules.png" alt="drawing" width="500"/>
 
 
-## High-density insertion
+
+---
+## 8x probes in motor cortex
+
+This example illustrates hareware for inserting eight probes into a single superficial region (max depth ~9mm). Note, not all features are visible, such as headstages and the connections between electrode drive and the linear rail insertion assembly. This example illustrates insertion along an axis which is not parallel to chamber axis. 
+
+<img src="./docs/images/Igor_8x.png" alt="drawing" width="500"/>
+
+---
 
 
-## Recording from M1, SMA, and GPi
+## Deep insertion
 
-![3x_probe](/docs/images/Jules.png =200x)
+This example illustrates insertion to deep targets using a standard 19 mm Christ chamber, where the insertion trajectory is not aligned with the chamber axis.
 
-### Custom linear rail guide for deep insertion
+<img src="https://user-images.githubusercontent.com/768056/199261985-25c108b2-2d36-405a-8038-47a3bb62a5f5.png" alt="Monkey C" width="500"/>
 
-![cousteau_chamber_with_rail_shuttle_-_grid_mk_7_2022-May-03_04-45-58PM-000_CustomizedView28366638586](https://user-images.githubusercontent.com/768056/199261985-25c108b2-2d36-405a-8038-47a3bb62a5f5.png)
+<!-- ![cousteau_chamber_with_rail_shuttle_-_grid_mk_7_2022-May-03_04-45-58PM-000_CustomizedView28366638586]() -->
 

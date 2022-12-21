@@ -21,7 +21,7 @@ Some examples:
 
 ## Recording from M1, SMA, and GPi
 
-![3x_probe](/docs/images/Jules.png)
+![3x_probe](/docs/images/Jules.png =200)
 
 ### Custom linear rail guide for deep insertion
 

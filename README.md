@@ -1,15 +1,22 @@
 # Neuropixels-NHP-hardware
  
-This is a work-in-progress collection of open-source hardware designs and documentation of techniques required to use Neuropixels-NHP probes in large animal models. 
+This repository and the associated wiki contain a collection of open-source hardware designs and documentation of methods for using silicon probes like the Neuropixels-NHP in nonhuman primates (NHP) and other large animal models. The experience documented here is currently focused on acute recordings, and information regarding semi-chronic recordings will be added once this testing is complete. We welcome pull requests for additional designs and information from the community. 
 
-The hardware repository contains CAD models for the Neuropixels-NHP probe and models of adapters to mount these probes on electrode drives from manufacturers like Narishige and NaN. 
+Using silicon probes in NHP involves a different set of design constraints from single electrodes or wire-based linear arrays (e.g.: S-probes, V-probes). In particular the probe shank is typically shorter (currently 45mm and 25mm for the two variants of Neuropixels NHP), and the mechanical properties of silicon are different from tungsten or stainless steel. Commercially-available electrode drive systems (such as Narishige, NaN, Thomas, FHC, Alpha Omega, etc.) are designed for inserting long, metal-based electrodes. Using these drives with silicon arrays like the Neuropixels NHP requires mechanical adapters, and careful consideration of the insertion mechanics. 
+
+This repository contains:
+1. CAD models, 3D models, and drawings for mechanical adapters for the Neuropixels-NHP probe for a variety of commercially available drives.
+2. Wiki describing design constraints and considerations for different experimental use cases. 
+
 
 # Wiki
 
-The use case wiki is currently a work in progress, more will be available soon.
-![Use case experience wiki](https://github.com/etrautmann/Neuropixels-NHP-hardware/wiki)
+![Neuropixels NHP wiki](https://github.com/etrautmann/Neuropixels-NHP-hardware/wiki)
 
-Examples:
+Some examples:
+
+## Narishige drive dovetail adapter for 
+
 
 ### Custom linear rail guide for deep insertion
 

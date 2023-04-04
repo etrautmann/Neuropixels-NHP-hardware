@@ -10,8 +10,10 @@ Using silicon probes in NHP involves a different set of design constraints from 
 This repository contains:
 1. CAD models, 3D models, and drawings for mechanical adapters for the Neuropixels-NHP probe for a variety of commercially available drives.
 2. [Neuropixels NHP wiki](https://github.com/etrautmann/Neuropixels-NHP-hardware/wiki) - describing design constraints and considerations for different experimental use cases. 
+3. Additional CAD models for the Neuropixels probe, rhesus brain model, etc. 
 
-Most documentation lives on the wiki
+
+Most documentation of use cases and insertion protocols live on the wiki. 
 
 ---
 # Examples
@@ -34,11 +36,32 @@ This example illustrates hareware for inserting eight probes into a single super
 ---
 
 
-## Deep insertion
+## Insertion to deep targets
 
+# Example 1
 This example illustrates insertion to deep targets using a standard 19 mm Christ chamber, where the insertion trajectory is not aligned with the chamber axis.
 
 <img src="https://user-images.githubusercontent.com/768056/199261985-25c108b2-2d36-405a-8038-47a3bb62a5f5.png" alt="Monkey C" width="500"/>
 
 <!-- ![cousteau_chamber_with_rail_shuttle_-_grid_mk_7_2022-May-03_04-45-58PM-000_CustomizedView28366638586]() -->
+
+
+# Example 2
+
+An alternative approach for insertion to deep targets, using nested dovetail rails to maintain alignment between the probe and guide tube.
+
+ 
+
+
+---
+## Adapter - Narishige to dovetail rod
+
+IMEC sells 1/4" dovetail rods, which provide a convenient interface for holding probes, and can be adapted easily to different drives. These dovetail rods allow for convenient coarse positioning, but it should be noted that the neuropixels shank is not aligned with the center of the rod. A model of the drive is not available, but this configuration has been tested and works.
+
+<img src="./docs/images/Narishige_zoom2.png" alt="drawing" height="500"/>
+
+<!-- <img src="./docs/images/Narishige_2.png" alt="drawing" width="500"/> -->
+
+
+
 
